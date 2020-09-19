@@ -180,3 +180,224 @@ a, a:hover{
 	color: #a3b1bf;
 }
 /*who-we-are end*/
+
+/* Works section start*/
+.works{
+	width: 100%;
+	padding: 80px 0px;
+	background: #f2f5f7;
+}
+.works .title{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 60px;
+}
+.works .title h2{
+	font-size: 34px;
+	line-height: 44px;
+	font-weight: 700;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	color: #506a85;
+	margin-bottom:10px;
+}
+.works .title p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #a3b1bf;
+}
+.works .card{
+	text-align: center;
+	border-radius: 0px;
+}
+.works .card .card-img-top{
+	border-radius: 0px;
+}
+.works .card .card-body .card-title{
+	font-size: 16px;
+	font-weight: 600;
+	color: #506a85;
+}
+.works .card .card-body .card-text{
+	font-size: 14px;
+	font-weight: 400;
+	color: #a3b1bf;
+	margin-bottom: 5px;
+}
+.works .owl-carousel{
+	margin-top: 50px;
+}
+.works .owl-theme .owl-dots .owl-dot.active span, .works .owl-theme .owl-dots .owl-dot:hover span{
+	background: #00bc9c;
+}
+.works .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 25px;
+}
+
+/*get-in-touch section start*/
+.get-in-touch{
+	width: 100%;
+	padding: 80px 0px;
+}
+.get-in-touch .title{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 60px;
+}
+.get-in-touch .title h2{
+	font-size: 34px;
+	line-height: 44px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: #506a85;
+	margin-bottom:10px;
+}
+.get-in-touch .title p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #a3b1bf;
+}
+.get-in-touch .title .btn-info{
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 10px 35px;
+	margin-top: 20px;
+	border-radius: 2px;
+	background: #00bc9c;
+	color: #fff;
+	border:1px solid #00bc9c;
+	transition: 1s;
+}
+.get-in-touch .title .btn-info:hover{
+	background: transparent;
+	color: #00bc9c;
+	border:1px solid #00bc9c;
+}
+
+/*get-in-touch section end*/
+
+/*footer-section start*/
+.footer-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: #2f4052;
+}
+.footer-section .widget{
+	width: 100%;
+}
+.footer-section .widget h4{
+	font-size: 18px;
+	line-height: 28px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 15px;
+}
+.footer-section .widget p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #8c9aa8;
+	margin: 10px 0px;
+}
+.footer-section .widget .link{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #8c9aa8;
+}
+.footer-section .widget .link:hover{
+	text-decoration: none;
+	color: #00bc9c;
+}
+.footer-section .widget .link .fa{
+	margin-left: 10px;
+}
+.footer-section .widget .no-mar{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.footer-section .widget .card-group{
+	margin-bottom: 10px;
+}
+.footer-section .widget .card{
+	border: 0px solid rgba(0,0,0,.125);
+    border-radius: 0px;
+    margin: 0px 10px;
+}
+.footer-section .widget .card-img-top{
+	border-radius: 0px;
+}
+.footer-section .widget .form .mx-sm-3{
+	margin-left: 0px !important;
+}
+.footer-section .widget .form .form-control{
+	width: 100%;
+	background: #4e5c6c;
+	border: 1px solid #4e5c6c;
+	border-radius: 2px;
+	font-size: 12px;
+	padding: 18px 4px;
+}
+.footer-section .widget .form .btn-primary{
+	color: #fff;
+	background-color: #00bc9c;
+	border-color: #00bc9c;
+	position: absolute;
+	text-transform: uppercase;
+	right: 12%;
+	bottom: 30%;
+	padding: 5px 12px;
+	font-size: 14px;
+	font-weight: 700;
+}
+.footer-section .widget .form .btn-primary:hover{
+	background: transparent;
+	color: #00bc9c;
+	border:1px solid #00bc9c;
+}
+.footer-section .widget .form .form-control:focus {
+     box-shadow: 0 0 0 0rem rgba(0,123,255,.25);
+}
+/*Main footer section start*/
+.main-footer{
+	width: 100%;
+	padding: 25px 0px;
+	background: #283645;
+}
+.main-footer .copyright{
+	font-size: 14px;
+	color: #616f7d;
+	font-weight: 700;
+	margin-top: 10px;
+}
+.main-footer .main-manu{
+	width: 100%;
+	color: #616f7d;
+}
+.main-footer .main-manu ul{
+	display: block;
+	margin: 10px;
+	text-align: right;
+}
+.main-footer .main-manu ul li{
+	display: inline-block;
+	list-style: none;
+}
+.main-footer .main-manu ul li a{
+	font-size: 14px;
+	font-weight: 700;
+	margin: 0px 15px;
+	color: #616f7d;
+}
+.main-footer .main-manu ul li a:hover{
+	text-decoration: none;
+	color: #00bc9c;
+}
+.main-footer .main-manu .btn {
+    padding: 0px 650px;
+    margin-top: -72px;
+}
